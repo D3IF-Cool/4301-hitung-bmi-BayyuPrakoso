@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Bagikan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung BMI merupakan sebuah aplikasi Android untuk menghitung body masa index (BMI) sehingga seseorang dapat mengetahui apakah berat badannya ideal, gemuk atau kurus."
+        android:gravity="left"
+        android:textSize="21sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Aplikasi ini dibuat untuk kelas Mobpro 1. Temukan kodenya di https://github.com/indraazimi/hitung-bmi"
+        android:textSize="21sp"
+        android:layout_marginVertical="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Copyright @ 2021 Indra Azimi,
+                      All right reserved"
+        android:textSize="21sp"
+        android:layout_marginVertical="40dp"/>
+
+    <Button
+        android:id="@+id/kembali2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="9dp"
+        android:text="kembali"
+        />
+
+</LinearLayout>
